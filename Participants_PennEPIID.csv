@@ -2,18 +2,18 @@ PennEPI,seizure_number,gender,age,scalp_localization,Surgery received,Engel,surg
 1,1,F,50,,,,
 9,2,F,48,temporal,,,
 9,3,F,48,temporal,,,
-15,4,F,66,temporal,Laser Ablation,,
-15,5,F,66,temporal,Laser Ablation,,
-27,6,M,36,temporal,Laser Ablation,,
-27,7,M,36,temporal,Laser Ablation,,
+15,4,F,66,temporal,,,
+15,5,F,66,temporal,,,
+27,6,M,36,temporal,,,
+27,7,M,36,temporal,,,
 33,8,M,35,frontal,DBS,,Poor/Device/No Surgery
 33,9,M,35,frontal,DBS,,Poor/Device/No Surgery
 40,10,F,38,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
-48,11,F,27,frontal,Laser Ablation,,
+48,11,F,27,frontal,,,
 57,12,M,22,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
-57,13,M,22,temporal,Laser Ablation,,
-61,14,F,28,,Resection,,
-61,15,F,28,,Resection,,
+57,13,M,22,temporal,,,
+61,14,F,28,,,,
+61,15,F,28,,,,
 66,16,F,44,,RNS,,Poor/Device/No Surgery
 76,17,F,37,temporal,Laser Ablation,IA: Completely seizure-free since surgery <br>,Good
 77,18,M,26,temporal,Laser Ablation,"IIC: More than rare disabling seizures after surgery, but rare seizures for at least 2 years",Poor/Device/No Surgery
@@ -23,58 +23,58 @@ PennEPI,seizure_number,gender,age,scalp_localization,Surgery received,Engel,surg
 79,22,M,46,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
 84,23,F,51,multifocal,Laser Ablation,IA: Completely seizure-free since surgery <br>,Good
 92,24,M,48,multifocal,No intervention received,,Poor/Device/No Surgery
-93,25,M,39,temporal,Laser Ablation,,
+93,25,M,39,temporal,,,
 95,26,M,51,temporal,Resection,IA: Completely seizure-free since surgery <br>,Good
 95,27,M,51,temporal,Resection,IA: Completely seizure-free since surgery <br>,Good
 99,28,F,26,temporal,No intervention received,,Poor/Device/No Surgery
-100,29,F,41,temporal,,,Poor/Device/No Surgery
-100,30,F,41,temporal,,,Poor/Device/No Surgery
-103,31,F,38,temporal,Resection,,
-108,32,M,42,frontal,Laser Ablation,,
-108,33,M,42,frontal,Laser Ablation,,
-109,34,F,21,frontal,Resection,,
-109,35,F,21,frontal,Resection,,
-110,36,F,29,temporal,Resection,,
-110,37,F,29,temporal,Resection,,
+100,29,F,41,temporal,VNS,,Poor/Device/No Surgery
+100,30,F,41,temporal,VNS,,Poor/Device/No Surgery
+103,31,F,38,temporal,,,
+108,32,M,42,frontal,,,
+108,33,M,42,frontal,,,
+109,34,F,21,frontal,,,
+109,35,F,21,frontal,,,
+110,36,F,29,temporal,,,
+110,37,F,29,temporal,,,
 113,38,M,33,temporal,No intervention received,,Poor/Device/No Surgery
 117,39,M,28,temporal,No intervention received,,Poor/Device/No Surgery
-118,40,M,26,multifocal,Resection,,
-118,41,M,26,multifocal,Resection,,
+118,40,M,26,multifocal,,,
+118,41,M,26,multifocal,,,
 124,42,F,58,temporal,No intervention received,,Poor/Device/No Surgery
 124,43,F,58,temporal,No intervention received,,Poor/Device/No Surgery
-125,44,M,55,temporal,Resection,,
-125,45,M,55,temporal,Resection,,
-130,46,F,28,multifocal,Resection,,
+125,44,M,55,temporal,,,
+125,45,M,55,temporal,,,
+130,46,F,28,multifocal,,,
 132,47,M,24,multifocal,RNS,,Poor/Device/No Surgery
 134,48,F,25,,No intervention received,,Poor/Device/No Surgery
 134,49,F,25,,No intervention received,,Poor/Device/No Surgery
 136,50,M,37,multifocal,No intervention received,,Poor/Device/No Surgery
 139,51,F,56,temporal,RNS,,Poor/Device/No Surgery
 139,52,F,56,temporal,RNS,,Poor/Device/No Surgery
-160,53,M,31,temporal,Resection,,
-160,54,M,31,temporal,Resection,,
-194,55,F,22,,Resection,,
-194,56,F,22,,Resection,,
-202,57,M,30,temporal,Laser Ablation,,
-202,58,M,30,temporal,Laser Ablation,,
-209,59,F,43,temporal,Resection,,
-209,60,F,43,temporal,Resection,,
+160,53,M,31,temporal,,,
+160,54,M,31,temporal,,,
+194,55,F,22,,,,
+194,56,F,22,,,,
+202,57,M,30,temporal,,,
+202,58,M,30,temporal,,,
+209,59,F,43,temporal,,,
+209,60,F,43,temporal,,,
 235,61,F,31,temporal,DBS,,Poor/Device/No Surgery
 235,62,F,31,temporal,DBS,,Poor/Device/No Surgery
-236,63,M,30,frontal,,,Poor/Device/No Surgery
-237,64,F,47,temporal,,,Poor/Device/No Surgery
-237,65,F,47,temporal,,,Poor/Device/No Surgery
+236,63,M,30,frontal,No intervention received,,Poor/Device/No Surgery
+237,64,F,47,temporal,No intervention received,,Poor/Device/No Surgery
+237,65,F,47,temporal,No intervention received,,Poor/Device/No Surgery
 241,66,M,63,temporal,No intervention received,,Poor/Device/No Surgery
 241,67,M,63,temporal,No intervention received,,Poor/Device/No Surgery
 244,68,F,45,temporal,No intervention received,,Poor/Device/No Surgery
 244,69,F,45,temporal,No intervention received,,Poor/Device/No Surgery
 246,70,F,43,temporal,No intervention received,,Poor/Device/No Surgery
 246,71,F,43,temporal,No intervention received,,Poor/Device/No Surgery
-1902,72,F,46,temporal,,,Poor/Device/No Surgery
-1902,73,F,46,temporal,,,Poor/Device/No Surgery
-1923,74,F,51,temporal,,,Poor/Device/No Surgery
-1923,75,F,51,temporal,,,Poor/Device/No Surgery
+1902,72,F,46,temporal,No intervention received,,Poor/Device/No Surgery
+1902,73,F,46,temporal,No intervention received,,Poor/Device/No Surgery
+1923,74,F,51,temporal,No intervention received,,Poor/Device/No Surgery
+1923,75,F,51,temporal,No intervention received,,Poor/Device/No Surgery
 2455,76,F,54,temporal,No intervention received,,Poor/Device/No Surgery
 2455,77,F,54,temporal,No intervention received,,Poor/Device/No Surgery
-2620,78,F,19,temporal,,,Poor/Device/No Surgery
-2620,79,F,19,temporal,,,Poor/Device/No Surgery
+2620,78,F,19,temporal,No intervention received,,Poor/Device/No Surgery
+2620,79,F,19,temporal,No intervention received,,Poor/Device/No Surgery

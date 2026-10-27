@@ -48,11 +48,11 @@ Annotator columns are empty (`NaN`) for the 2 annotators who were not assigned a
 | `PennEPI`, `seizure_number` | Study patient and seizure IDs (match `Annotation_PennEPIID.csv`) |
 | `gender`, `age` | Patient sex and age |
 | `scalp_localization` | Scalp EEG seizure localization (temporal, frontal, multifocal; empty if unknown) |
-| `Surgery received` | Surgical intervention, where available |
+| `Surgery received` | Surgical intervention (resection, laser ablation, RNS, VNS, DBS, or no intervention received)* |
 | `Engel` | 2-year Engel classification, where available* |
 | `surgical_outcome` | `Good` (Engel class I) or `Poor/Device/No Surgery` (Engel class II–IV, device implantation, or no intervention), using the 2-year Engel classification or the 1-year classification when the 2-year assessment is unavailable* |
 
-\* Outcome columns (`Engel`, `surgical_outcome`) are provided only for the 47 seizures (30 patients)
+\* Surgery and outcome columns (`Surgery received`, `Engel`, `surgical_outcome`) are provided only for the 47 seizures (30 patients)
 whose scalp EEG admission started before the surgical intervention; they are empty for all other
 seizures.
 
