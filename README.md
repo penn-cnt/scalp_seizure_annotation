@@ -11,20 +11,22 @@ onset channels, contralateral spread, and onset/spread timing.
 
 ## Repository contents
 
-| File | Description |
-|---|---|
-| `main_figure.ipynb` | Code for Figures 1B–4B |
-| `supplement_figure.ipynb` | Code for Supplementary Figures 1 and 4–8 |
-| `Annotation_PennEPIID.csv` | Seizure-level annotations from all annotators (one row per seizure) |
-| `Participants_PennEPIID.csv` | Seizure-level clinical information (one row per seizure) |
-| `requirements.txt` | Python package versions used for the analyses |
+```
+dataset/
+  Annotation_PennEPIID.csv     Seizure-level annotations from all annotators (one row per seizure)
+  Participants_PennEPIID.csv   Seizure-level clinical information (one row per seizure)
+code/
+  main_figure.ipynb            Code for Figures 1B–4B
+  supplement_figure.ipynb      Code for Supplementary Figures 1 and 4–8
+requirements.txt               Python package versions used for the analyses
+```
 
 EEG signals are not included in this repository. `edf_file_name` identifies the de-identified EDF
 recording each annotation refers to.
 
 ## Data dictionary
 
-### `Annotation_PennEPIID.csv`
+### `dataset/Annotation_PennEPIID.csv`
 
 | Column | Description |
 |---|---|
@@ -41,7 +43,7 @@ recording each annotation refers to.
 
 Annotator columns are empty (`NaN`) for the 2 annotators who were not assigned a given seizure.
 
-### `Participants_PennEPIID.csv`
+### `dataset/Participants_PennEPIID.csv`
 
 | Column | Description |
 |---|---|
@@ -58,7 +60,7 @@ seizures.
 
 ## Figures
 
-**`main_figure.ipynb`**
+**`code/main_figure.ipynb`**
 
 | Figure | Content |
 |---|---|
@@ -70,7 +72,7 @@ seizures.
 | 3C | Onset MAD vs. spread MAD (paired Wilcoxon signed-rank test) |
 | 4A, 4B | Gwet's AC1 for temporal vs. non-temporal seizures |
 
-**`supplement_figure.ipynb`**
+**`code/supplement_figure.ipynb`**
 
 | Figure | Content |
 |---|---|
@@ -89,8 +91,9 @@ pip install jupyter
 jupyter notebook
 ```
 
-Open a notebook from the repository root (the notebooks read the CSV files with paths relative to
-it) and run all cells from top to bottom. Each notebook is self-contained; the first cell
+Open a notebook in `code/` and run all cells from top to bottom. The notebooks read the CSV files
+from `../dataset/`, so they must be run with `code/` as the working directory (the Jupyter default
+when a notebook is opened from that folder). Each notebook is self-contained; the first cell
 (`SETUP`) must be run first.
 
 The analyses were run with Python 3.8.20 and the package versions in `requirements.txt`.
