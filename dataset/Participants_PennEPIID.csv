@@ -11,7 +11,7 @@ PennEPI,seizure_number,gender,age,scalp_localization,Surgery received,Engel,surg
 40,10,F,38,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
 48,11,F,27,frontal,,,
 57,12,M,22,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
-57,13,M,22,temporal,,,
+57,13,M,22,temporal,Laser Ablation,IB: Non disabling simple partial seizures only since surgery,Good
 61,14,F,28,,,,
 61,15,F,28,,,,
 66,16,F,44,,RNS,,Poor/Device/No Surgery
