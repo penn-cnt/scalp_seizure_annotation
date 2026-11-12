@@ -17,7 +17,7 @@ dataset/
   Participants_PennEPIID.csv   Seizure-level clinical information (one row per seizure)
 code/
   main_figure.ipynb            Code for Figures 1B–4B
-  supplement_figure.ipynb      Code for Supplementary Figures 1 and 4–8
+  supplement_figure.ipynb      Code for Supplementary Figures 1, 2 and 4–7, and surgical intervention counts
 requirements.txt               Python package versions used for the analyses
 ```
 
@@ -50,13 +50,8 @@ Annotator columns are empty (`NaN`) for the 2 annotators who were not assigned a
 | `PennEPI`, `seizure_number` | Study patient and seizure IDs (match `Annotation_PennEPIID.csv`) |
 | `gender`, `age` | Patient sex and age |
 | `scalp_localization` | Scalp EEG seizure localization (temporal, frontal, multifocal; empty if unknown) |
-| `Surgery received` | Surgical intervention (resection, laser ablation, RNS, VNS, DBS, or no intervention received)* |
-| `Engel` | 2-year Engel classification, where available* |
-| `surgical_outcome` | `Good` (Engel class I) or `Poor/Device/No Surgery` (Engel class II–IV, device implantation, or no intervention), using the 2-year Engel classification or the 1-year classification when the 2-year assessment is unavailable* |
-
-\* Surgery and outcome columns (`Surgery received`, `Engel`, `surgical_outcome`) are provided only for the 48 seizures (30 patients)
-whose scalp EEG admission started before the surgical intervention (including PennEPI 57, seizure 13,
-which shares the patient-level outcome of seizure 12); they are empty for all other seizures.
+| `Surgery received` | Intervention after the analyzed scalp EEG admission: `Laser Ablation`, `Resection`, `RNS`, `DBS`, `VNS`, or `No intervention received` (same value for all seizures of a patient) |
+| `Engel` | Engel class after resection or laser ablation (e.g., `IA`, `IB`, `IIA`, `IIC`); empty if no surgery or no Engel class was reported |
 
 ## Figures
 
@@ -77,11 +72,12 @@ which shares the patient-level outcome of seizure 12); they are empty for all ot
 | Figure | Content |
 |---|---|
 | S1 | Gwet's κ, patient level |
+| S2 | Seizure 1 vs. seizure 2 labels of the same annotator in patients with two seizures (onset laterality; contralateral spread): scatter plots (gray and colored by annotator) and agreement matrix with Gwet's κ |
 | S4A, S4B | Pairwise annotator agreement tables and 5 × 5 percentage agreement matrices (onset laterality; contralateral spread) |
 | S5 | Channel-level agreement (Cohen's κ), patient level |
 | S6 | Spread time MAD for 3/3 vs. 2/3 agreement |
 | S7 | Gwet's κ for temporal vs. non-temporal seizures, patient level |
-| S8A, S8B | Spread speed [1/(1 + t)] by surgical outcome in the 48 seizures (30 patients) with a surgical outcome (patient level; seizure level) |
+| — | Number of patients by surgical intervention (`Surgery received`; printed in the last cell) |
 
 ## How to run
 
